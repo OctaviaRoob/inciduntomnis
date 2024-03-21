@@ -1,0 +1,55 @@
+{
+  "name": "inciduntomnis",
+  "version": "1.0.0",
+  "description": "Pipeline and Compose with TypeScript definition",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "browser": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OctaviaRoob/inciduntomnis.git"
+  },
+  "keywords": [
+    "sit",
+    "sapiente",
+    "typescript"
+  ],
+  "author": "DemarioHalvorson",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/jest": "^24.0.18",
+    "babel-jest": "^24.9.0",
+    "chalk": "^2.4.2",
+    "clean-typescript-build": "^0.1.0",
+    "cross-env": "^6.0.0",
+    "fs-extra": "^8.1.0",
+    "iter-tools": "^6.2.5",
+    "jest": "^24.9.0",
+    "json5": "^2.1.0",
+    "pretty-exec": "^0.3.0",
+    "shx": "^0.3.2",
+    "standard": "^14.0.0",
+    "static-type-assert": "^3.0.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.5.3",
+    "yaml-jest": "^1.0.5"
+  },
+  "standard": {
+    "env": {
+      "jest": true,
+      "browser": true
+    }
+  },
+  "engines": {
+    "node": ">= 8.9.0"
+  }
+}
